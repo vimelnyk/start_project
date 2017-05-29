@@ -1,0 +1,15 @@
+a{
+    @include links($some_color, $some_color, $some_color, $some_color, $some_color);
+    &:hover,
+        &:focus{
+            text-decoration: none;
+        }
+
+}
+
+a{
+	&.myColor-link{
+    	@include links($some_color, $some_color, transparentize($some_color, .2), transparentize($some_color, .2), transparentize($some_color, .2));
+	}
+
+}

@@ -1,0 +1,21 @@
+
+.btn{
+
+}
+.btn-full-width{	
+	width:100%;
+}
+.btn-primary{	
+	@include butty(
+		$some_color,
+		$some_color,
+		$some_color,
+		$some_color,
+		$some_color,
+		$some_color,
+		$some_color,		
+		$some_color,
+		$some_color,
+		$some_color
+		);
+}
